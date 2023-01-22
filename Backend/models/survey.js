@@ -13,9 +13,9 @@ const surveySchema = new Schema({
         tag: String,
         placeholder: String
     }],
-    completed: Number
+    maxp: Number
 })
 
 const surveyModel = mongoose.model("Survey", surveySchema)
 
-module.export = surveyModel
+module.exports = surveyModel
